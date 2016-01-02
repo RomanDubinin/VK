@@ -12,9 +12,8 @@ namespace VK
 			//WebClient
 			var appId = 5211114;
 			var sope = 4096;
-			var version = "5.28";
 
-			var token = Autorizator.GetAccessToken(appId, sope, version);
+			var token = Autorizator.GetAccessToken(appId, sope);
 
 			Console.WriteLine("------");
 			Console.WriteLine(token);
